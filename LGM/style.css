@@ -23,7 +23,7 @@ header{
     align-items: center;
     padding:30px 10%;
     width: 100%;
-    position:fixed;
+    position: static;
     
 }
 li,a{
@@ -33,21 +33,14 @@ li,a{
     color: #fdfdfd;
     text-decoration: none;
 }
-header{
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
-    padding:30px 10%;
-    overflow: hidden;
-    
-}
+
 
 .logo{
     cursor: pointer;
     color: white;
     font-size: 30px;
     margin-right: auto;
-    padding-left: 318px;
+    padding-left: 0px;
 }
 .nav_link{
     list-style: none;
