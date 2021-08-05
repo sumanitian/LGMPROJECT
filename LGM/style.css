@@ -1,0 +1,204 @@
+* {
+    box-sizing: border-box;
+    margin:0;
+    padding:0;
+    
+}
+.img{
+    background-image: url(image/imgs.jpg);
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    animation: slider 10s infinite linear;
+}
+@keyframes slider{
+    0%{ background-image: url(image/imgs.jpg);}
+    35%{ background-image: url(image/wp5599668.jpg);}
+    75%{background-image: url(image/2191017.jpg); }
+}
+header{
+    display: flex;
+    background-color: rgba(63, 62, 62, 0.623);
+    justify-content: flex-end;
+    align-items: center;
+    padding:30px 10%;
+    width: 100%;
+    position:fixed;
+    
+}
+li,a{
+    font-family:"montserrat",sans-serif;
+    font-weight:lighter;
+    font-size: 16px;
+    color: #fdfdfd;
+    text-decoration: none;
+}
+header{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding:30px 10%;
+    overflow: hidden;
+    
+}
+
+.logo{
+    cursor: pointer;
+    color: white;
+    font-size: 30px;
+    margin-right: auto;
+    padding-left: 318px;
+}
+.nav_link{
+    list-style: none;
+}
+.nav_link li{
+    display: inline-block;
+    padding:0px 20px;
+}
+.nav_link li a button{
+    transition: all 0.3s ease 0s;
+}
+.nav_link li a button:hover{
+    color:#e2b41cfa;
+}
+.nav_button{
+    margin: 5px 0px;
+    padding: 10px;
+    background-color: rgb(124, 8, 139);
+    color: white;
+    border: 2px solid rgb(147, 89, 156);
+}
+.intro {
+    position: absolute;
+    top: 300px;
+    z-index: +1;
+    color: white;
+    left: 487px;
+    width: 30%;
+
+}
+
+.intro h1 {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 40px;
+}
+
+.intro p {
+    top: 20px;
+    position: relative;
+    word-spacing: 2px;
+    font-size:18px ;
+}
+.learn-more {
+    position: absolute;
+    top: 500px;
+    left: 487px;
+    z-index: +1;
+}
+
+.learn-more button {
+    margin: 5px 0px; 
+    padding: 15px;
+    background-color: rgb(70 20 78);
+    color: white;
+    border: 2px solid rgb(70 20 78);
+}
+
+.learn-more button:hover {
+    background-color: rgb(251, 251, 97);
+    color: black;
+    border: 2px solid rgb(251, 251, 97);
+    border-radius: 2px;
+    cursor: pointer;
+}
+.welcome {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.welcome h1 {
+    align-items: center;
+    text-align: center;
+    margin-top: 40px;
+}
+
+.welcome p {
+    
+    font-size: large;
+    width: 16%;
+    position: relative;
+    top: 40px;
+    left: 460px;
+}
+
+.welcome img {
+    display: flex;
+    width: 300px;
+    height: 235px;
+    position: relative;
+    top: -142px;
+    left: 990px;
+    align-items: center;
+}
+.about {
+    display: flex;
+    margin-left: 350px;
+    margin-right: 350px;
+    border-bottom: 2px solid rgb(128, 123, 123);
+    margin-bottom: 50px;  
+}
+
+.card {
+    width: 100%;
+    align-items: center;
+    margin: auto 82px;
+    padding: 20px 20px;
+    
+
+}
+
+#cardid-1 {
+    text-align: center;
+}
+
+#cardid-2 {
+    text-align: center;
+}
+
+#cardid-3 {
+    text-align: center;
+}
+
+.about img {
+
+    width: 70px;
+    height: 70px;
+}
+
+.card h3 {
+    color: purple;
+}
+
+.card p {
+    color: grey;
+}
+
+.card button {
+    padding: 12px;
+    background-color: rgb(70, 20, 78);
+    color: white;
+    border: 2px solid rgb(70, 20, 78);
+}
+
+.card button:hover {
+    background-color: rgb(251, 251, 97);
+    color: black;
+    border: 2px solid rgb(251, 251, 97);
+    border-radius: 2px;
+    cursor: pointer;
+}
+
+
+
